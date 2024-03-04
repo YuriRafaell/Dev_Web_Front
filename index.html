@@ -5,31 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desenvolvimento Web FrontEnd</title>
-    <link rel="style" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-   <main>
-    <h1> Bem vindo ao site da turma de Desenvolvimento Web Front-End da ECT/UFRN </h1>
-    <section>
+    <nav>
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> Resumo </a></li>
+            <li><a href="#"> Unidade 1 </a></li>
+            <li><a href="#"> Unidade 2 </a></li>
+            <li><a href="#"> Unidade 3 </a></li>
+        </ul>
+    </nav>
+    <header> Bem vindo a turma de Desenvolvimento Web Front-End da ECT/UFRN 2024.1 </header>
+    <section class="explicacao">
         <article>
-            Nesta materia de 60h temos 3 unidades, logo nossos conteúdos será dividido em 3 fases.
+            Aqui você irá aprender uma variedade de tópicos essenciais para se destacar no 
+            desenvolvimento web moderno. Desde os fundamentos básicos de HTML, CSS e JavaScript até
+            conceitos avançados de frameworks como React, este curso aborda tudo o que você precisa
+            para construir aplicações web dinâmicas e interativas. Explore o poder do DOM, aprenda 
+            a criar e consumir Web Services em Node.js, e mergulhe em tópicos avançados como Event 
+            Loop, promises e async/await. Com uma abordagem prática e foco na aplicação real, você 
+            estará pronto para enfrentar desafios do mundo real no desenvolvimento frontend.  
         </article>
     </section>
-    <section>
-        <card>
-            Unidade 1
-        </card>
-        <card>
-            Unidade 2
-        </card>
-        <card>
-            Unidade 3
-        </card>
+    <section class="cards">
+        <div class="card">
+            <a href="U1/U1.html">
+                <h2>Unidade 1</h2>
+            </a>
+        </div>
+        <div class="card">
+            <a href="U2/U2.html">
+                <h2>Unidade 2</h2>
+            </a>
+        </div>
+        <div class="card">
+            <a href="U3/U3.html">
+                <h2>Unidade 3</h2>
+            </a>
+        </div>
     </section>
-   </main>
-   <footer>
-    Desenvolvido por Yuri Rafael 
-   </footer>
+    <footer>
+        Desenvolvido por Yuri Rafael
+    </footer>
 </body>
+
 </html>
