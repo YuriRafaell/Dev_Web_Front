@@ -9,46 +9,104 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#"> Home </a></li>
-            <li><a href="#"> Resumo </a></li>
-            <li><a href="#"> Unidade 1 </a></li>
-            <li><a href="#"> Unidade 2 </a></li>
-            <li><a href="#"> Unidade 3 </a></li>
-        </ul>
-    </nav>
-    <header> Bem vindo a turma de Desenvolvimento Web Front-End da ECT/UFRN 2024.1 </header>
-    <section class="explicacao">
-        <article>
-            Aqui você irá aprender uma variedade de tópicos essenciais para se destacar no 
-            desenvolvimento web moderno. Desde os fundamentos básicos de HTML, CSS e JavaScript até
-            conceitos avançados de frameworks como React, este curso aborda tudo o que você precisa
-            para construir aplicações web dinâmicas e interativas. Explore o poder do DOM, aprenda 
-            a criar e consumir Web Services em Node.js, e mergulhe em tópicos avançados como Event 
-            Loop, promises e async/await. Com uma abordagem prática e foco na aplicação real, você 
-            estará pronto para enfrentar desafios do mundo real no desenvolvimento frontend.  
-        </article>
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#"> ECT/UFRN </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link textoBranco" href="#home"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textoBranco" href="#missao"> Missão </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textoBranco" href="#u1"> Unidade 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textoBranco" href="#u2"> Unidade 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textoBranco" href="#u3"> Unidade 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SEÇÃO INICIAL -->
+    <main>
+        <section id="home" class="corPrimaria">
+            <div class="container">
+                <h1 id="feature-text" class="jumbotrom-heading textoBranco"> Bem vindo a turma de Desenvolvimento Web
+                    Front-End da ECT/UFRN 2024.1 </h1>
+            </div>
+        </section>
+    </main>
+
+    <!-- MISSÃO -->
+    <section id="missao" class="corSecundaria">
+        <div class="container">
+            <h2> Nossa objetivo </h2>
+            <p>
+                Aqui você irá aprender uma variedade de tópicos essenciais para se destacar no
+                desenvolvimento web moderno. Desde os fundamentos básicos de HTML, CSS e JavaScript até
+                conceitos avançados de frameworks como React, este curso aborda tudo o que você precisa
+                para construir aplicações web dinâmicas e interativas. Explore o poder do DOM, aprenda
+                a criar e consumir Web Services em Node.js, e mergulhe em tópicos avançados como Event
+                Loop, promises e async/await. Com uma abordagem prática e foco na aplicação real, você
+                estará pronto para enfrentar desafios do mundo real no desenvolvimento frontend.
+            </p>
+        </div>
     </section>
-    <section class="cards">
-        <div class="card">
-            <a href="U1/U1.html">
-                <h2>Unidade 1</h2>
-            </a>
+
+    <!-- UNIDADES -->
+    <div class="album py-5 corPrimaria">
+        <div class="container">
+            <h2 class="text-center jumbotrom-heading textoBranco"> Unidades </h2>
+            <div class="row">
+
+                <!-- CARD 1 -->
+                <div class="col-md-6 card-modificado">
+                    <div class="card mb-4 box-shadow box-shadow-modificado">
+                        <div class="btn-group">
+                            <a href="U1/U1.html"> Unidade 1 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-md-6 card-modificado">
+                    <div class="card mb-4 box-shadow box-shadow-modificado">
+                        <div class="btn-group">
+                            <a href="U2/U2.html"> Unidade 2 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-md-6 card-modificado">
+                    <div class="card mb-4 box-shadow box-shadow-modificado">
+                        <div class="btn-group">
+                            <a href="U3/U3.html"> Unidade 3 </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <a href="U2/U2.html">
-                <h2>Unidade 2</h2>
-            </a>
-        </div>
-        <div class="card">
-            <a href="U3/U3.html">
-                <h2>Unidade 3</h2>
-            </a>
-        </div>
-    </section>
-    <footer>
-        Desenvolvido por Yuri Rafael
+    </div>
+
+    <!-- BOTÃO PARA VOLTAR AO TOPO -->
+    <a href="#top" class="btn-fixed">
+        <i style="color: black;" class="fas fa-caret-square-up"></i>
+    </a>
+
+    <!-- RODAPÉ -->
+    <footer id="baseboard" class="text-center bg-dark textoFooter">
+        <p id="p-footer"> Desenvolvido por Yuri Rafael - © 2024.1</p>
     </footer>
 </body>
 
